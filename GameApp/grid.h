@@ -1,17 +1,17 @@
 #ifndef GRID_H
 #define GRID_H
 
-
 class Grid
 {
   bool isExchange;
-  bool hasMarker; // 事件已确定
+  bool hasMarker; // event determined
   double alpha; // excgRate *= alpha
   double beta;  // cash += beta
   double gamma; // bitcoin += gamma
-  bool isStart; // 送道具
+  bool isStart; // add 1 controlled dice
 
 public:
+  friend class Game;
   Grid();
 };
 

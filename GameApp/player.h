@@ -13,9 +13,12 @@ private:
   double bitcoin;
   int playernum;
   int pos;
+  const QColor PlayerColor[MAXPLAYER] = {QColor(255, 0, 0), QColor(255, 255, 0), QColor(0, 0, 255), QColor(0, 255, 0)};
+  QColor getColor(int playernum);
 
 public:
-  Player();
+  friend class Game;
+  Player(int _playernum);
   ~Player();
 };
 

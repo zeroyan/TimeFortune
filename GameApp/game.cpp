@@ -12,7 +12,10 @@ Game::Game(int _nPlayer): nPlayer(_nPlayer)
     }
   }
 
-  players = new Player[nPlayer];
+  players = new Player *[nPlayer];
+  for(int i = 0; i < nPlayer; ++i){
+    players[i] = new Player(i);
+  }
   whoseTurn = 0;
   currentTurn = 0;
   excgRate = 1;
@@ -20,12 +23,15 @@ Game::Game(int _nPlayer): nPlayer(_nPlayer)
 
 Game::~Game(){
   delete []grids;
+  for(int i = 0; i < nPlayer; ++i){
+    delete players[i];
+  }
   delete []players;
 }
 
 void Game::rollDice(){
   int rollres = dice.roll();
-  Player *currPlayer = &players[whoseTurn];
+  Player *currPlayer = players[whoseTurn];
   int currPos = currPlayer->pos;
 
   bool passExchange = false;
@@ -42,7 +48,7 @@ void Game::rollDice(){
   }
 
   if(passExchange){
-    //TODO: 询问兑换数量
+    //TODO: ask for exchange amount
   }
   else if(passStart){
     currPlayer->nTools[Tools::ControlledDice]++;
@@ -50,14 +56,14 @@ void Game::rollDice(){
 
 
 
-  //到达目标位置
+  //arrive at target position
   int targetPos = currPlayer->pos = (currPos + rollres) % NGRID;
   if(!grids[targetPos].hasMarker){
-    //TODO: 向区块链询问事件并记录
+    //TODO: ask blockchain for event and record it
     grids[targetPos].hasMarker = true;
   }
 
-  //应用事件
+  //apply the event
   excgRate *= grids[targetPos].alpha;
   currPlayer->cash += grids[targetPos].beta;
   currPlayer->bitcoin += grids[targetPos].gamma;

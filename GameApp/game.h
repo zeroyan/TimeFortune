@@ -8,7 +8,7 @@ class Game
 {
 private:
   Grid *grids;
-  Player *players;
+  Player **players;
   int nPlayer;
   int whoseTurn;
   int currentTurn;

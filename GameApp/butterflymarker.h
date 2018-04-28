@@ -1,6 +1,6 @@
 #ifndef BUTTERFLYMARKER_H
 #define BUTTERFLYMARKER_H
-
+#include <QString>
 
 class ButterflyMarker
 {

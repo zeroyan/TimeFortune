@@ -4,6 +4,7 @@ Dice::Dice()
 {
 }
 
-Dice::roll(){
-  return g_roll();
+int Dice::roll(){
+  // ask blockchain
+  return 0;
 }
