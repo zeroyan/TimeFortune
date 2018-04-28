@@ -3,6 +3,11 @@
 #include "grid.h"
 #include "player.h"
 #include "dice.h"
+#include <QJsonObject>
+#include <QJsonValue>
+#include <QJsonArray>
+#include <QJsonDocument>
+
 
 class Game
 {
@@ -13,12 +18,18 @@ private:
   int whoseTurn;
   int currentTurn;
   double excgRate;  // bitcoin = excgRate * cash
-  Dice dice;
+  Dice *dice;
 public:
-  Game(int _nPlayer);
+  explicit Game(int _nPlayer);
   ~Game();
   void rollDice();
-  void useTool(Tools tool);
+  void placeMarker();
+  void reverseTime(int);
+  void placeDice(int);
+  void endTurn();
+  void exit();
+  QString toJSON();
+  void fromJSON(QString json);
 };
 
 #endif // GAME_H

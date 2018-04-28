@@ -2,6 +2,7 @@
 #define MAINWINDOW_H
 
 #include <QMainWindow>
+#include "game.h"
 
 namespace Ui {
   class MainWindow;
@@ -17,6 +18,14 @@ public:
 
 private:
   Ui::MainWindow *ui;
+  Game *game;
+
+public slots:
+  void rollDice();
+  void placeMarker();
+  void reverseTime();
+  void placeDice();
+  void endTurn();
 };
 
 #endif // MAINWINDOW_H

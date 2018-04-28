@@ -1,10 +1,11 @@
 #include "dice.h"
+#include <ctime>
 
 Dice::Dice()
 {
+  qsrand((unsigned int)time(NULL));
 }
 
 int Dice::roll(){
-  // ask blockchain
-  return 0;
+  return 1 + qrand()%4;
 }

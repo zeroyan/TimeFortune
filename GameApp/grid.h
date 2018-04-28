@@ -1,5 +1,7 @@
 #ifndef GRID_H
 #define GRID_H
+#include <QVector>
+#include <butterflymarker.h>
 
 class Grid
 {
@@ -9,10 +11,13 @@ class Grid
   double beta;  // cash += beta
   double gamma; // bitcoin += gamma
   bool isStart; // add 1 controlled dice
+  QVector<ButterflyMarker> butterflies;
 
 public:
   friend class Game;
   Grid();
+  void insertButterfly(ButterflyMarker &b);
+  ButterflyMarker * hasHisMarker(int playernum);
 };
 
 #endif // GRID_H
