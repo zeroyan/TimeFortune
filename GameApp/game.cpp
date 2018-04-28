@@ -1,4 +1,5 @@
 #include "game.h"
+#include <QDebug>
 
 Game::Game(int _nPlayer):nPlayer(_nPlayer)
 {
@@ -34,9 +35,10 @@ Game::~Game(){
 
 void Game::rollDice(){
   int rollres = dice->roll();
+  qDebug() << "Roll result" << rollres;
   Player *currPlayer = players[whoseTurn];
   int currPos = currPlayer->pos;
-
+  qDebug() << "Player " << whoseTurn << " at " << currPos;
   bool passExchange = false;
   bool passStart = false;
   for(int i = 1; i <= rollres; ++i){
@@ -64,7 +66,7 @@ void Game::rollDice(){
     grids[targetPos].hasMarker = true;
   }
 
-  //apply the event
+  //TODO: apply the event
   excgRate *= grids[targetPos].alpha;
   currPlayer->cash += grids[targetPos].beta;
   if(currPlayer->cash < 0){
@@ -85,6 +87,7 @@ void Game::endTurn(){
       exit();
     }
   }
+  qDebug() << "Now whoseturn: " << whoseTurn;
 }
 
 void Game::placeMarker(){
@@ -93,7 +96,7 @@ void Game::placeMarker(){
     return;
   }
   currPlayer->nTools[Tools::ButterflyMark]--;
-  //send snapshot
+  //TODO: send snapshot
   ButterflyMarker b(whoseTurn, currentTurn, currPlayer->pos);
   grids[currPlayer->pos].insertButterfly(b);
 }
@@ -122,10 +125,13 @@ void Game::exit(){
 
 QString Game::toJSON(){
   QJsonObject res;
-  res.insert("Rate", QJsonValue(QString::number(excgRate)));
+  res.insert("WhoseTurn", QJsonValue(whoseTurn));
+  res.insert("WhichRound", QJsonValue(currentTurn));
+  res.insert("Rate", QJsonValue(excgRate));
   QJsonArray array;
   for(int i = 0; i < nPlayer; ++i){
     QJsonObject player;
+    player.insert("Name", i);
     player.insert("Position", players[i]->pos);
     player.insert("Cash", players[i]->cash);
     player.insert("Bitcoin", players[i]->bitcoin);

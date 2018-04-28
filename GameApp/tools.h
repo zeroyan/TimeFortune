@@ -4,8 +4,6 @@ enum Tools{
   ButterflyMark,
   TimeJump,
   ControlledDice,
-  DestinyDice,
-  CopyDice,
   TOOLNUM
 };
 #endif // TOOLS_H

@@ -1,0 +1,25 @@
+<RCC>
+    <qresource prefix="/new/icon">
+        <file>pictures/card.png</file>
+        <file>pictures/grid1.png</file>
+        <file>pictures/grid2.png</file>
+        <file>pictures/grid3.png</file>
+        <file>pictures/grid4.png</file>
+        <file>pictures/grid5.png</file>
+        <file>pictures/grid6.png</file>
+        <file>pictures/grid7.png</file>
+        <file>pictures/grid8.png</file>
+        <file>pictures/grid9.png</file>
+        <file>pictures/grid10.png</file>
+        <file>pictures/grid11.png</file>
+        <file>pictures/grid12.png</file>
+        <file>pictures/grid13.png</file>
+        <file>pictures/grid14.png</file>
+        <file>pictures/grid15.png</file>
+        <file>pictures/grid16.png</file>
+        <file>pictures/grid17.png</file>
+        <file>pictures/grid18.png</file>
+        <file>pictures/grid19.png</file>
+        <file>pictures/grid20.png</file>
+    </qresource>
+</RCC>

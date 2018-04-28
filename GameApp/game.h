@@ -20,6 +20,7 @@ private:
   double excgRate;  // bitcoin = excgRate * cash
   Dice *dice;
 public:
+  friend class MainWindow;
   explicit Game(int _nPlayer);
   ~Game();
   void rollDice();

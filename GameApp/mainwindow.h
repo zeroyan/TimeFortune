@@ -15,16 +15,20 @@ class MainWindow : public QMainWindow
 public:
   explicit MainWindow(QWidget *parent = 0);
   ~MainWindow();
+  void updateUI();
+  void paintEvent(QPaintEvent *);
 
 private:
   Ui::MainWindow *ui;
   Game *game;
+  QLabel *players;
 
 public slots:
   void rollDice();
   void placeMarker();
   void reverseTime();
-  void placeDice();
+  void placeDice_1();
+  void placeDice_2(int arg);
   void endTurn();
 };
 

@@ -18,6 +18,7 @@ private:
 
 public:
   friend class Game;
+  friend class MainWindow;
   Player(int _playernum);
   ~Player();
 };

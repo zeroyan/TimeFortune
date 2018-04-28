@@ -40,8 +40,8 @@
      <bool>false</bool>
     </property>
     <property name="icon">
-     <iconset>
-      <normaloff>pictures/grid1.png</normaloff>pictures/grid1.png</iconset>
+     <iconset resource="button_image.qrc">
+      <normaloff>:/new/icon/pictures/grid1.png</normaloff>:/new/icon/pictures/grid1.png</iconset>
     </property>
     <property name="iconSize">
      <size>
@@ -1146,7 +1146,7 @@
      <x>0</x>
      <y>0</y>
      <width>1280</width>
-     <height>23</height>
+     <height>18</height>
     </rect>
    </property>
   </widget>
@@ -1168,6 +1168,8 @@
   </widget>
  </widget>
  <layoutdefault spacing="6" margin="11"/>
- <resources/>
+ <resources>
+  <include location="button_image.qrc"/>
+ </resources>
  <connections/>
 </ui>

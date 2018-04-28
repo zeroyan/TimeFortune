@@ -5,6 +5,9 @@ Grid::Grid()
   isExchange = false;
   isStart = false;
   hasMarker = false;
+  alpha = 1;
+  beta = 0;
+  gamma = 0;
 }
 
 void Grid::insertButterfly(ButterflyMarker &b){
