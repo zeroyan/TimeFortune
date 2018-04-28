@@ -4,6 +4,7 @@
 #include <QMainWindow>
 #include <QLabel>
 #include "game.h"
+#include "grid.h"
 
 namespace Ui {
   class MainWindow;
@@ -21,7 +22,7 @@ public:
 private:
   Ui::MainWindow *ui;
   Game *game;
-  QLabel **butterflyLabel;
+  QLabel ***butterflyLabel;
 
 public slots:
   void rollDice();

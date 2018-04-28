@@ -504,8 +504,8 @@
      </rect>
     </property>
     <property name="icon">
-     <iconset>
-      <normaloff>pictures/bt_4.png</normaloff>pictures/bt_4.png</iconset>
+     <iconset resource="button_image.qrc">
+      <normaloff>:/new/icon/pictures/bt_4.png</normaloff>:/new/icon/pictures/bt_4.png</iconset>
     </property>
     <property name="iconSize">
      <size>
@@ -524,8 +524,8 @@
      </rect>
     </property>
     <property name="icon">
-     <iconset>
-      <normaloff>pictures/bt_3.png</normaloff>pictures/bt_3.png</iconset>
+     <iconset resource="button_image.qrc">
+      <normaloff>:/new/icon/pictures/bt_3.png</normaloff>:/new/icon/pictures/bt_3.png</iconset>
     </property>
     <property name="iconSize">
      <size>
@@ -544,8 +544,8 @@
      </rect>
     </property>
     <property name="icon">
-     <iconset>
-      <normaloff>pictures/bt_2.png</normaloff>pictures/bt_2.png</iconset>
+     <iconset resource="button_image.qrc">
+      <normaloff>:/new/icon/pictures/bt_2.png</normaloff>:/new/icon/pictures/bt_2.png</iconset>
     </property>
     <property name="iconSize">
      <size>
@@ -564,8 +564,8 @@
      </rect>
     </property>
     <property name="icon">
-     <iconset>
-      <normaloff>pictures/bt_1.png</normaloff>pictures/bt_1.png</iconset>
+     <iconset resource="button_image.qrc">
+      <normaloff>:/new/icon/pictures/bt_1.png</normaloff>:/new/icon/pictures/bt_1.png</iconset>
     </property>
     <property name="iconSize">
      <size>
@@ -1199,63 +1199,6 @@
      <bool>true</bool>
     </property>
    </widget>
-   <widget class="QLabel" name="butterfly3">
-    <property name="geometry">
-     <rect>
-      <x>830</x>
-      <y>600</y>
-      <width>41</width>
-      <height>31</height>
-     </rect>
-    </property>
-    <property name="text">
-     <string/>
-    </property>
-    <property name="pixmap">
-     <pixmap resource="button_image.qrc">:/new/icon/pictures/butterfly2.png</pixmap>
-    </property>
-    <property name="scaledContents">
-     <bool>true</bool>
-    </property>
-   </widget>
-   <widget class="QLabel" name="butterfly1">
-    <property name="geometry">
-     <rect>
-      <x>830</x>
-      <y>520</y>
-      <width>41</width>
-      <height>31</height>
-     </rect>
-    </property>
-    <property name="text">
-     <string/>
-    </property>
-    <property name="pixmap">
-     <pixmap resource="button_image.qrc">:/new/icon/pictures/butterfly3.png</pixmap>
-    </property>
-    <property name="scaledContents">
-     <bool>true</bool>
-    </property>
-   </widget>
-   <widget class="QLabel" name="butterfly2">
-    <property name="geometry">
-     <rect>
-      <x>830</x>
-      <y>560</y>
-      <width>41</width>
-      <height>31</height>
-     </rect>
-    </property>
-    <property name="text">
-     <string/>
-    </property>
-    <property name="pixmap">
-     <pixmap resource="button_image.qrc">:/new/icon/pictures/butterfly1.png</pixmap>
-    </property>
-    <property name="scaledContents">
-     <bool>true</bool>
-    </property>
-   </widget>
    <zorder>player4_bg</zorder>
    <zorder>grid01</zorder>
    <zorder>grid02</zorder>
@@ -1323,9 +1266,6 @@
    <zorder>avatar1</zorder>
    <zorder>avatar2</zorder>
    <zorder>avatar3</zorder>
-   <zorder>butterfly3</zorder>
-   <zorder>butterfly1</zorder>
-   <zorder>butterfly2</zorder>
   </widget>
   <widget class="QMenuBar" name="menuBar">
    <property name="enabled">
