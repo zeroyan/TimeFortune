@@ -6,25 +6,1154 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>800</width>
-    <height>600</height>
+    <width>1280</width>
+    <height>768</height>
    </rect>
   </property>
   <property name="windowTitle">
    <string>MainWindow</string>
   </property>
-  <widget class="QWidget" name="centralWidget"/>
+  <widget class="QWidget" name="centralWidget">
+   <widget class="QLabel" name="background">
+    <property name="geometry">
+     <rect>
+      <x>-160</x>
+      <y>-260</y>
+      <width>1280</width>
+      <height>730</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="grid01">
+    <property name="geometry">
+     <rect>
+      <x>820</x>
+      <y>510</y>
+      <width>130</width>
+      <height>130</height>
+     </rect>
+    </property>
+    <property name="autoFillBackground">
+     <bool>false</bool>
+    </property>
+    <property name="icon">
+     <iconset>
+      <normaloff>pictures/grid1.png</normaloff>pictures/grid1.png</iconset>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>130</width>
+      <height>130</height>
+     </size>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="grid02">
+    <property name="geometry">
+     <rect>
+      <x>730</x>
+      <y>510</y>
+      <width>90</width>
+      <height>130</height>
+     </rect>
+    </property>
+    <property name="autoFillBackground">
+     <bool>false</bool>
+    </property>
+    <property name="icon">
+     <iconset>
+      <normaloff>pictures/grid2.png</normaloff>pictures/grid2.png</iconset>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>90</width>
+      <height>130</height>
+     </size>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="grid03">
+    <property name="geometry">
+     <rect>
+      <x>640</x>
+      <y>510</y>
+      <width>90</width>
+      <height>130</height>
+     </rect>
+    </property>
+    <property name="autoFillBackground">
+     <bool>false</bool>
+    </property>
+    <property name="icon">
+     <iconset>
+      <normaloff>pictures/grid3.png</normaloff>pictures/grid3.png</iconset>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>90</width>
+      <height>130</height>
+     </size>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="grid04">
+    <property name="geometry">
+     <rect>
+      <x>550</x>
+      <y>510</y>
+      <width>90</width>
+      <height>130</height>
+     </rect>
+    </property>
+    <property name="autoFillBackground">
+     <bool>false</bool>
+    </property>
+    <property name="icon">
+     <iconset>
+      <normaloff>pictures/grid4.png</normaloff>pictures/grid4.png</iconset>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>90</width>
+      <height>130</height>
+     </size>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="grid05">
+    <property name="geometry">
+     <rect>
+      <x>460</x>
+      <y>510</y>
+      <width>90</width>
+      <height>130</height>
+     </rect>
+    </property>
+    <property name="autoFillBackground">
+     <bool>false</bool>
+    </property>
+    <property name="icon">
+     <iconset>
+      <normaloff>pictures/grid5.png</normaloff>pictures/grid5.png</iconset>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>90</width>
+      <height>130</height>
+     </size>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="grid06">
+    <property name="geometry">
+     <rect>
+      <x>330</x>
+      <y>510</y>
+      <width>130</width>
+      <height>130</height>
+     </rect>
+    </property>
+    <property name="autoFillBackground">
+     <bool>false</bool>
+    </property>
+    <property name="icon">
+     <iconset>
+      <normaloff>pictures/grid6.png</normaloff>pictures/grid6.png</iconset>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>130</width>
+      <height>130</height>
+     </size>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="grid07">
+    <property name="geometry">
+     <rect>
+      <x>330</x>
+      <y>420</y>
+      <width>130</width>
+      <height>90</height>
+     </rect>
+    </property>
+    <property name="autoFillBackground">
+     <bool>false</bool>
+    </property>
+    <property name="icon">
+     <iconset>
+      <normaloff>pictures/grid7.png</normaloff>pictures/grid7.png</iconset>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>130</width>
+      <height>90</height>
+     </size>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="grid08">
+    <property name="geometry">
+     <rect>
+      <x>330</x>
+      <y>330</y>
+      <width>130</width>
+      <height>90</height>
+     </rect>
+    </property>
+    <property name="autoFillBackground">
+     <bool>false</bool>
+    </property>
+    <property name="icon">
+     <iconset>
+      <normaloff>pictures/grid8.png</normaloff>pictures/grid8.png</iconset>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>130</width>
+      <height>90</height>
+     </size>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="grid09">
+    <property name="geometry">
+     <rect>
+      <x>330</x>
+      <y>240</y>
+      <width>130</width>
+      <height>90</height>
+     </rect>
+    </property>
+    <property name="autoFillBackground">
+     <bool>false</bool>
+    </property>
+    <property name="icon">
+     <iconset>
+      <normaloff>pictures/grid9.png</normaloff>pictures/grid9.png</iconset>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>130</width>
+      <height>90</height>
+     </size>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="grid10">
+    <property name="geometry">
+     <rect>
+      <x>330</x>
+      <y>150</y>
+      <width>130</width>
+      <height>90</height>
+     </rect>
+    </property>
+    <property name="autoFillBackground">
+     <bool>false</bool>
+    </property>
+    <property name="icon">
+     <iconset>
+      <normaloff>pictures/grid10.png</normaloff>pictures/grid10.png</iconset>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>130</width>
+      <height>90</height>
+     </size>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="grid11">
+    <property name="geometry">
+     <rect>
+      <x>330</x>
+      <y>20</y>
+      <width>130</width>
+      <height>130</height>
+     </rect>
+    </property>
+    <property name="autoFillBackground">
+     <bool>false</bool>
+    </property>
+    <property name="icon">
+     <iconset>
+      <normaloff>pictures/grid11.png</normaloff>pictures/grid11.png</iconset>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>130</width>
+      <height>130</height>
+     </size>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="grid12">
+    <property name="geometry">
+     <rect>
+      <x>460</x>
+      <y>20</y>
+      <width>90</width>
+      <height>130</height>
+     </rect>
+    </property>
+    <property name="autoFillBackground">
+     <bool>false</bool>
+    </property>
+    <property name="icon">
+     <iconset>
+      <normaloff>pictures/grid12.png</normaloff>pictures/grid12.png</iconset>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>90</width>
+      <height>130</height>
+     </size>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="grid15">
+    <property name="geometry">
+     <rect>
+      <x>730</x>
+      <y>20</y>
+      <width>90</width>
+      <height>130</height>
+     </rect>
+    </property>
+    <property name="autoFillBackground">
+     <bool>false</bool>
+    </property>
+    <property name="icon">
+     <iconset>
+      <normaloff>pictures/grid15.png</normaloff>pictures/grid15.png</iconset>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>90</width>
+      <height>130</height>
+     </size>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="grid13">
+    <property name="geometry">
+     <rect>
+      <x>550</x>
+      <y>20</y>
+      <width>90</width>
+      <height>130</height>
+     </rect>
+    </property>
+    <property name="autoFillBackground">
+     <bool>false</bool>
+    </property>
+    <property name="icon">
+     <iconset>
+      <normaloff>pictures/grid13.png</normaloff>pictures/grid13.png</iconset>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>90</width>
+      <height>130</height>
+     </size>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="grid14">
+    <property name="geometry">
+     <rect>
+      <x>640</x>
+      <y>20</y>
+      <width>90</width>
+      <height>130</height>
+     </rect>
+    </property>
+    <property name="autoFillBackground">
+     <bool>false</bool>
+    </property>
+    <property name="icon">
+     <iconset>
+      <normaloff>pictures/grid14.png</normaloff>pictures/grid14.png</iconset>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>90</width>
+      <height>130</height>
+     </size>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="grid16">
+    <property name="geometry">
+     <rect>
+      <x>820</x>
+      <y>20</y>
+      <width>130</width>
+      <height>130</height>
+     </rect>
+    </property>
+    <property name="autoFillBackground">
+     <bool>false</bool>
+    </property>
+    <property name="icon">
+     <iconset>
+      <normaloff>pictures/grid16.png</normaloff>pictures/grid16.png</iconset>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>130</width>
+      <height>130</height>
+     </size>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="grid18">
+    <property name="geometry">
+     <rect>
+      <x>820</x>
+      <y>240</y>
+      <width>130</width>
+      <height>90</height>
+     </rect>
+    </property>
+    <property name="autoFillBackground">
+     <bool>false</bool>
+    </property>
+    <property name="icon">
+     <iconset>
+      <normaloff>pictures/grid18.png</normaloff>pictures/grid18.png</iconset>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>130</width>
+      <height>90</height>
+     </size>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="grid19">
+    <property name="geometry">
+     <rect>
+      <x>820</x>
+      <y>330</y>
+      <width>130</width>
+      <height>90</height>
+     </rect>
+    </property>
+    <property name="autoFillBackground">
+     <bool>false</bool>
+    </property>
+    <property name="icon">
+     <iconset>
+      <normaloff>pictures/grid19.png</normaloff>pictures/grid19.png</iconset>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>130</width>
+      <height>90</height>
+     </size>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="grid17">
+    <property name="geometry">
+     <rect>
+      <x>820</x>
+      <y>150</y>
+      <width>130</width>
+      <height>90</height>
+     </rect>
+    </property>
+    <property name="autoFillBackground">
+     <bool>false</bool>
+    </property>
+    <property name="icon">
+     <iconset>
+      <normaloff>pictures/grid17.png</normaloff>pictures/grid17.png</iconset>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>130</width>
+      <height>90</height>
+     </size>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="grid20">
+    <property name="geometry">
+     <rect>
+      <x>820</x>
+      <y>420</y>
+      <width>130</width>
+      <height>90</height>
+     </rect>
+    </property>
+    <property name="autoFillBackground">
+     <bool>false</bool>
+    </property>
+    <property name="icon">
+     <iconset>
+      <normaloff>pictures/grid20.png</normaloff>pictures/grid20.png</iconset>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>130</width>
+      <height>90</height>
+     </size>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="bt_butterfly">
+    <property name="geometry">
+     <rect>
+      <x>550</x>
+      <y>660</y>
+      <width>181</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>放置蝴蝶</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="bt_4">
+    <property name="geometry">
+     <rect>
+      <x>270</x>
+      <y>660</y>
+      <width>41</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>4</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="bt_3">
+    <property name="geometry">
+     <rect>
+      <x>220</x>
+      <y>660</y>
+      <width>41</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>3</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="bt_2">
+    <property name="geometry">
+     <rect>
+      <x>170</x>
+      <y>660</y>
+      <width>41</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>2</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="bt_1">
+    <property name="geometry">
+     <rect>
+      <x>120</x>
+      <y>660</y>
+      <width>41</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>1</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="bt_remotedice">
+    <property name="geometry">
+     <rect>
+      <x>330</x>
+      <y>660</y>
+      <width>181</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>遥控骰子</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="bt_timerecall">
+    <property name="geometry">
+     <rect>
+      <x>770</x>
+      <y>660</y>
+      <width>181</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>时光回溯</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="dice">
+    <property name="geometry">
+     <rect>
+      <x>1060</x>
+      <y>530</y>
+      <width>171</width>
+      <height>171</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>骰子</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="player4_bg">
+    <property name="geometry">
+     <rect>
+      <x>990</x>
+      <y>420</y>
+      <width>241</width>
+      <height>91</height>
+     </rect>
+    </property>
+    <property name="pixmap">
+     <pixmap>pictures/grid16.png</pixmap>
+    </property>
+   </widget>
+   <widget class="QLabel" name="player3_bg">
+    <property name="geometry">
+     <rect>
+      <x>990</x>
+      <y>310</y>
+      <width>241</width>
+      <height>91</height>
+     </rect>
+    </property>
+    <property name="pixmap">
+     <pixmap>pictures/grid16.png</pixmap>
+    </property>
+   </widget>
+   <widget class="QLabel" name="player2_bg">
+    <property name="geometry">
+     <rect>
+      <x>990</x>
+      <y>200</y>
+      <width>241</width>
+      <height>91</height>
+     </rect>
+    </property>
+    <property name="pixmap">
+     <pixmap>pictures/grid16.png</pixmap>
+    </property>
+   </widget>
+   <widget class="QLabel" name="player1_bg">
+    <property name="geometry">
+     <rect>
+      <x>990</x>
+      <y>90</y>
+      <width>241</width>
+      <height>91</height>
+     </rect>
+    </property>
+    <property name="pixmap">
+     <pixmap>pictures/grid16.png</pixmap>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="bt_endturn">
+    <property name="geometry">
+     <rect>
+      <x>1050</x>
+      <y>20</y>
+      <width>181</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>回合结束</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="card_bg">
+    <property name="geometry">
+     <rect>
+      <x>50</x>
+      <y>20</y>
+      <width>231</width>
+      <height>441</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>pictures/card.png</pixmap>
+    </property>
+    <property name="scaledContents">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QLabel" name="exchange_bg">
+    <property name="geometry">
+     <rect>
+      <x>50</x>
+      <y>510</y>
+      <width>231</width>
+      <height>131</height>
+     </rect>
+    </property>
+    <property name="pixmap">
+     <pixmap>pictures/grid16.png</pixmap>
+    </property>
+   </widget>
+   <widget class="QLabel" name="exchange_tx">
+    <property name="geometry">
+     <rect>
+      <x>70</x>
+      <y>530</y>
+      <width>191</width>
+      <height>91</height>
+     </rect>
+    </property>
+    <property name="layoutDirection">
+     <enum>Qt::LeftToRight</enum>
+    </property>
+    <property name="text">
+     <string>时光币汇率：1时光币 = 5现金</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QLabel" name="player1_tx1">
+    <property name="geometry">
+     <rect>
+      <x>1000</x>
+      <y>110</y>
+      <width>120</width>
+      <height>12</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>玩家1</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="player1_tx2">
+    <property name="geometry">
+     <rect>
+      <x>1120</x>
+      <y>110</y>
+      <width>100</width>
+      <height>12</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>天命点数：233</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="player1_tx3">
+    <property name="geometry">
+     <rect>
+      <x>1000</x>
+      <y>130</y>
+      <width>120</width>
+      <height>12</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>现金：120000元</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="player1_tx5">
+    <property name="geometry">
+     <rect>
+      <x>1000</x>
+      <y>150</y>
+      <width>70</width>
+      <height>12</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>蝴蝶：3</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="player1_tx4">
+    <property name="geometry">
+     <rect>
+      <x>1120</x>
+      <y>130</y>
+      <width>100</width>
+      <height>12</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>时光币：6000枚</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="player1_tx6">
+    <property name="geometry">
+     <rect>
+      <x>1070</x>
+      <y>150</y>
+      <width>70</width>
+      <height>12</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>时光回溯：1</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="player1_tx7">
+    <property name="geometry">
+     <rect>
+      <x>1150</x>
+      <y>150</y>
+      <width>70</width>
+      <height>12</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>遥控骰子：1</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="player2_tx1">
+    <property name="geometry">
+     <rect>
+      <x>1000</x>
+      <y>220</y>
+      <width>120</width>
+      <height>12</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>玩家2</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="player2_tx7">
+    <property name="geometry">
+     <rect>
+      <x>1150</x>
+      <y>260</y>
+      <width>70</width>
+      <height>12</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>遥控骰子：1</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="player2_tx3">
+    <property name="geometry">
+     <rect>
+      <x>1000</x>
+      <y>240</y>
+      <width>120</width>
+      <height>12</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>现金：120000元</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="player2_tx5">
+    <property name="geometry">
+     <rect>
+      <x>1000</x>
+      <y>260</y>
+      <width>70</width>
+      <height>12</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>蝴蝶：3</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="player2_tx4">
+    <property name="geometry">
+     <rect>
+      <x>1120</x>
+      <y>240</y>
+      <width>100</width>
+      <height>12</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>时光币：6000枚</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="player2_tx2">
+    <property name="geometry">
+     <rect>
+      <x>1120</x>
+      <y>220</y>
+      <width>100</width>
+      <height>12</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>天命点数：233</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="player2_tx6">
+    <property name="geometry">
+     <rect>
+      <x>1070</x>
+      <y>260</y>
+      <width>70</width>
+      <height>12</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>时光回溯：1</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="player3_tx1">
+    <property name="geometry">
+     <rect>
+      <x>1000</x>
+      <y>330</y>
+      <width>120</width>
+      <height>12</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>玩家3</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="player3_tx7">
+    <property name="geometry">
+     <rect>
+      <x>1150</x>
+      <y>370</y>
+      <width>70</width>
+      <height>12</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>遥控骰子：1</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="player3_tx3">
+    <property name="geometry">
+     <rect>
+      <x>1000</x>
+      <y>350</y>
+      <width>120</width>
+      <height>12</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>现金：120000元</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="player3_tx5">
+    <property name="geometry">
+     <rect>
+      <x>1000</x>
+      <y>370</y>
+      <width>70</width>
+      <height>12</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>蝴蝶：3</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="player3_tx4">
+    <property name="geometry">
+     <rect>
+      <x>1120</x>
+      <y>350</y>
+      <width>100</width>
+      <height>12</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>时光币：6000枚</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="player3_tx2">
+    <property name="geometry">
+     <rect>
+      <x>1120</x>
+      <y>330</y>
+      <width>100</width>
+      <height>12</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>天命点数：233</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="player3_tx6">
+    <property name="geometry">
+     <rect>
+      <x>1070</x>
+      <y>370</y>
+      <width>70</width>
+      <height>12</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>时光回溯：1</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="player4_tx1">
+    <property name="geometry">
+     <rect>
+      <x>1000</x>
+      <y>440</y>
+      <width>120</width>
+      <height>12</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>玩家4</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="player4_tx2">
+    <property name="geometry">
+     <rect>
+      <x>1120</x>
+      <y>440</y>
+      <width>100</width>
+      <height>12</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>天命点数：233</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="player4_tx5">
+    <property name="geometry">
+     <rect>
+      <x>1000</x>
+      <y>480</y>
+      <width>70</width>
+      <height>12</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>蝴蝶：3</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="player4_tx6">
+    <property name="geometry">
+     <rect>
+      <x>1070</x>
+      <y>480</y>
+      <width>70</width>
+      <height>12</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>时光回溯：1</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="player4_tx3">
+    <property name="geometry">
+     <rect>
+      <x>1000</x>
+      <y>460</y>
+      <width>120</width>
+      <height>12</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>现金：120000元</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="player4_tx7">
+    <property name="geometry">
+     <rect>
+      <x>1150</x>
+      <y>480</y>
+      <width>70</width>
+      <height>12</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>遥控骰子：1</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="player4_tx4">
+    <property name="geometry">
+     <rect>
+      <x>1120</x>
+      <y>460</y>
+      <width>100</width>
+      <height>12</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>时光币：6000枚</string>
+    </property>
+   </widget>
+   <zorder>player4_bg</zorder>
+   <zorder>background</zorder>
+   <zorder>grid01</zorder>
+   <zorder>grid02</zorder>
+   <zorder>grid03</zorder>
+   <zorder>grid04</zorder>
+   <zorder>grid05</zorder>
+   <zorder>grid06</zorder>
+   <zorder>grid07</zorder>
+   <zorder>grid08</zorder>
+   <zorder>grid09</zorder>
+   <zorder>grid10</zorder>
+   <zorder>grid11</zorder>
+   <zorder>grid12</zorder>
+   <zorder>grid15</zorder>
+   <zorder>grid13</zorder>
+   <zorder>grid14</zorder>
+   <zorder>grid16</zorder>
+   <zorder>grid18</zorder>
+   <zorder>grid19</zorder>
+   <zorder>grid17</zorder>
+   <zorder>grid20</zorder>
+   <zorder>bt_butterfly</zorder>
+   <zorder>bt_4</zorder>
+   <zorder>bt_3</zorder>
+   <zorder>bt_2</zorder>
+   <zorder>bt_1</zorder>
+   <zorder>bt_remotedice</zorder>
+   <zorder>bt_timerecall</zorder>
+   <zorder>dice</zorder>
+   <zorder>player3_bg</zorder>
+   <zorder>player2_bg</zorder>
+   <zorder>player1_bg</zorder>
+   <zorder>bt_endturn</zorder>
+   <zorder>card_bg</zorder>
+   <zorder>exchange_bg</zorder>
+   <zorder>exchange_tx</zorder>
+   <zorder>player1_tx1</zorder>
+   <zorder>player1_tx2</zorder>
+   <zorder>player1_tx3</zorder>
+   <zorder>player1_tx5</zorder>
+   <zorder>player1_tx4</zorder>
+   <zorder>player1_tx6</zorder>
+   <zorder>player1_tx7</zorder>
+   <zorder>player2_tx1</zorder>
+   <zorder>player2_tx7</zorder>
+   <zorder>player2_tx3</zorder>
+   <zorder>player2_tx5</zorder>
+   <zorder>player2_tx4</zorder>
+   <zorder>player2_tx2</zorder>
+   <zorder>player2_tx6</zorder>
+   <zorder>player3_tx1</zorder>
+   <zorder>player3_tx7</zorder>
+   <zorder>player3_tx3</zorder>
+   <zorder>player3_tx5</zorder>
+   <zorder>player3_tx4</zorder>
+   <zorder>player3_tx2</zorder>
+   <zorder>player3_tx6</zorder>
+   <zorder>player4_tx1</zorder>
+   <zorder>player4_tx2</zorder>
+   <zorder>player4_tx5</zorder>
+   <zorder>player4_tx6</zorder>
+   <zorder>player4_tx3</zorder>
+   <zorder>player4_tx7</zorder>
+   <zorder>player4_tx4</zorder>
+  </widget>
   <widget class="QMenuBar" name="menuBar">
+   <property name="enabled">
+    <bool>true</bool>
+   </property>
    <property name="geometry">
     <rect>
      <x>0</x>
      <y>0</y>
-     <width>800</width>
-     <height>18</height>
+     <width>1280</width>
+     <height>23</height>
     </rect>
    </property>
   </widget>
   <widget class="QToolBar" name="mainToolBar">
+   <property name="enabled">
+    <bool>true</bool>
+   </property>
    <attribute name="toolBarArea">
     <enum>TopToolBarArea</enum>
    </attribute>
@@ -32,7 +1161,11 @@
     <bool>false</bool>
    </attribute>
   </widget>
-  <widget class="QStatusBar" name="statusBar"/>
+  <widget class="QStatusBar" name="statusBar">
+   <property name="enabled">
+    <bool>true</bool>
+   </property>
+  </widget>
  </widget>
  <layoutdefault spacing="6" margin="11"/>
  <resources/>
