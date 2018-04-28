@@ -59,13 +59,26 @@ MainWindow::MainWindow(QWidget *parent) :
   connect(ui->bt_butterfly, SIGNAL(clicked(bool)), this, SLOT(placeMarker()));
   connect(ui->bt_timerecall, SIGNAL(clicked(bool)), this, SLOT(reverseTime()));
   connect(ui->bt_remotedice, SIGNAL(clicked(bool)), this, SLOT(placeDice_1()));
+  butterflyLabel = new QLabel *[game->nPlayer];
+  for(int i = 0; i < game->nPlayer; ++i){
+    butterflyLabel[i] = new QLabel[NGRID];
+    for(int j = 0; j < NGRID; ++j){
+      int x, y;
+      Grid::returnXY(j, i, x, y);
+      butterflyLabel[i][j].setGeometry(x, y, 31, 31);
+      butterflyLabel[i][j].hide();
+    }
+  }
   updateUI();
   this->update();
-  playerLabels = new Label[game->nPlayer];
 }
 MainWindow::~MainWindow()
 {
   delete game;
+  for(int i = 0; i < game->nPlayer; ++i){
+    delete[] butterflyLabel[i];
+  }
+  delete []butterflyLabel;
   delete ui;
 }
 
@@ -126,8 +139,26 @@ void MainWindow::updateUI(){
       }
     }
   }
+  int x, y;
+  Grid::returnXY(game->players[0]->pos, 0, x, y);
+  ui->avatar1->setGeometry(x, y, 31, 31);
+  Grid::returnXY(game->players[1]->pos, 1, x, y);
+  ui->avatar2->setGeometry(x, y, 31, 31);
+  Grid::returnXY(game->players[2]->pos, 2, x, y);
+  ui->avatar3->setGeometry(x, y, 31, 31);
+  Grid::returnXY(game->players[3]->pos, 3, x, y);
+  ui->avatar4->setGeometry(x, y, 31, 31);
 
-
+  for(int i = 0; i < NGRID; ++i){
+    for(int j = 0; j < game->nPlayer; ++j){
+      if(game->grids[i].hasHisMarker(j)){
+        butterflyLabel[j][i].show();
+      }
+      else{
+        butterflyLabel[j][i].hide();
+      }
+    }
+  }
 }
 
 void MainWindow::rollDice(){

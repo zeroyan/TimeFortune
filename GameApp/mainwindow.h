@@ -2,6 +2,7 @@
 #define MAINWINDOW_H
 
 #include <QMainWindow>
+#include <QLabel>
 #include "game.h"
 
 namespace Ui {
@@ -16,12 +17,11 @@ public:
   explicit MainWindow(QWidget *parent = 0);
   ~MainWindow();
   void updateUI();
-  void paintEvent(QPaintEvent *);
 
 private:
   Ui::MainWindow *ui;
   Game *game;
-  QLabel *players;
+  QLabel **butterflyLabel;
 
 public slots:
   void rollDice();

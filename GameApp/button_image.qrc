@@ -1,15 +1,6 @@
 <RCC>
     <qresource prefix="/new/icon">
         <file>pictures/card.png</file>
-        <file>pictures/grid1.png</file>
-        <file>pictures/grid2.png</file>
-        <file>pictures/grid3.png</file>
-        <file>pictures/grid4.png</file>
-        <file>pictures/grid5.png</file>
-        <file>pictures/grid6.png</file>
-        <file>pictures/grid7.png</file>
-        <file>pictures/grid8.png</file>
-        <file>pictures/grid9.png</file>
         <file>pictures/grid10.png</file>
         <file>pictures/grid11.png</file>
         <file>pictures/grid12.png</file>
@@ -21,5 +12,34 @@
         <file>pictures/grid18.png</file>
         <file>pictures/grid19.png</file>
         <file>pictures/grid20.png</file>
+        <file>pictures/avatar1.png</file>
+        <file>pictures/avatar2.png</file>
+        <file>pictures/avatar3.png</file>
+        <file>pictures/bt_1.png</file>
+        <file>pictures/bt_2.png</file>
+        <file>pictures/bt_3.png</file>
+        <file>pictures/bt_4.png</file>
+        <file>pictures/bt_butterfly.png</file>
+        <file>pictures/bt_endturn.png</file>
+        <file>pictures/bt_remotedice.png</file>
+        <file>pictures/bt_timerecall.png</file>
+        <file>pictures/butterfly1.png</file>
+        <file>pictures/butterfly2.png</file>
+        <file>pictures/butterfly3.png</file>
+        <file>pictures/dice1.png</file>
+        <file>pictures/dice2.png</file>
+        <file>pictures/dice3.png</file>
+        <file>pictures/dice4.png</file>
+        <file>pictures/frame02.png</file>
+        <file>pictures/frame04.png</file>
+        <file>pictures/grid01.png</file>
+        <file>pictures/grid02.png</file>
+        <file>pictures/grid03.png</file>
+        <file>pictures/grid04.png</file>
+        <file>pictures/grid05.png</file>
+        <file>pictures/grid06.png</file>
+        <file>pictures/grid07.png</file>
+        <file>pictures/grid08.png</file>
+        <file>pictures/grid09.png</file>
     </qresource>
 </RCC>

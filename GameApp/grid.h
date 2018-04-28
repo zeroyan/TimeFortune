@@ -18,6 +18,7 @@ public:
   Grid();
   void insertButterfly(ButterflyMarker &b);
   ButterflyMarker * hasHisMarker(int playernum);
+  static void returnXY(int pos, int player, int &x, int &y);
 };
 
 #endif // GRID_H

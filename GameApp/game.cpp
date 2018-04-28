@@ -91,11 +91,13 @@ void Game::endTurn(){
 }
 
 void Game::placeMarker(){
+  qDebug() << "place butterfly marker at Game";
   Player *currPlayer = players[whoseTurn];
   if(currPlayer->nTools[Tools::ButterflyMark] == 0){
     return;
   }
   currPlayer->nTools[Tools::ButterflyMark]--;
+  qDebug() << currPlayer->nTools[Tools::ButterflyMark] << " markers left";
   //TODO: send snapshot
   ButterflyMarker b(whoseTurn, currentTurn, currPlayer->pos);
   grids[currPlayer->pos].insertButterfly(b);
