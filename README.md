@@ -1,2 +1,2 @@
 # TimeFortune
-20180428 DoraHack
+2018-04-28 DoraHack
